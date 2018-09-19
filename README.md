@@ -1,10 +1,18 @@
 # FRTextFieldAnimation
 
+<center>
+
 [![Swift Version][swift-image]][swift-url]
 [![Platform][platform-image]](#)
-[![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
-[![Platform](https://img.shields.io/cocoapods/p/FRTextFieldAnimation.svg?style=flat)](https://cocoapods.org/pods/FRTextFieldAnimation)
+[![Build Status][travis-image]][travis-url]
+
+[![Release version][release-image]][release-url]
+[![CocoaPods version](https://img.shields.io/cocoapods/v/FilesProvider.svg)][cocoapods]
+
+</center>
+
+This library shows text fields with beautiful placeholder animation when are selected
 
 ## Example
 
