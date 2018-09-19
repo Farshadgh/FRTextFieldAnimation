@@ -1,8 +1,9 @@
 # FRTextFieldAnimation
 
-[![CI Status](https://img.shields.io/travis/farshad.de.lucia@gmail.com/FRTextFieldAnimation.svg?style=flat)](https://travis-ci.org/farshad.de.lucia@gmail.com/FRTextFieldAnimation)
-[![Version](https://img.shields.io/cocoapods/v/FRTextFieldAnimation.svg?style=flat)](https://cocoapods.org/pods/FRTextFieldAnimation)
-[![License](https://img.shields.io/cocoapods/l/FRTextFieldAnimation.svg?style=flat)](https://cocoapods.org/pods/FRTextFieldAnimation)
+[![Swift Version][swift-image]][swift-url]
+[![Platform][platform-image]](#)
+[![Build Status][travis-image]][travis-url]
+[![License][license-image]][license-url]
 [![Platform](https://img.shields.io/cocoapods/p/FRTextFieldAnimation.svg?style=flat)](https://cocoapods.org/pods/FRTextFieldAnimation)
 
 ## Example

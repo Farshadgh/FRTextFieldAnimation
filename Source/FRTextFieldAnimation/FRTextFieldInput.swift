@@ -8,9 +8,20 @@
 
 import UIKit
 
+@objc public protocol FRTextInputDelegate: class {
+    
+    @objc optional func textInputDidBeginEditing(textInput: FRTextFieldInput)
+    @objc optional func textInputDidEndEditing(textInput: FRTextFieldInput)
+    @objc optional func textInputDidChange(textInput: FRTextFieldInput)
+    @objc optional func textInputShouldBeginEditing(textInput: FRTextFieldInput) -> Bool
+    @objc optional func textInputShouldEndEditing(textInput: FRTextFieldInput) -> Bool
+    @objc optional func textInputShouldReturn(textInput: FRTextFieldInput) -> Bool
+}
+
+
 final public class FRTextFieldInput: UITextField {
     
-    weak public var textInputDelegate: TextInputDelegate?
+    weak public var textInputDelegate: FRTextInputDelegate?
     open var characterCount: Int = 100
     
     override init(frame: CGRect) {
@@ -45,6 +56,7 @@ extension FRTextFieldInput: UITextFieldDelegate {
     }
     
     public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
         guard let text = textField.text else { return true }
         let newLength = text.count + string.count - range.length
         return newLength <= characterCount

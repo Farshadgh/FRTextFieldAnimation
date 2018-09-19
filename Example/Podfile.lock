@@ -1,0 +1,16 @@
+PODS:
+  - FRTextFieldAnimation (0.1.0)
+
+DEPENDENCIES:
+  - FRTextFieldAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  FRTextFieldAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FRTextFieldAnimation: 5c465ebbb9240f9424754b1e959ec52a1d191fad
+
+PODFILE CHECKSUM: ce47ff2d269dedc0d793caf55054f94264542432
+
+COCOAPODS: 1.6.0.beta.1

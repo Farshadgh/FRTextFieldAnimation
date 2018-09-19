@@ -10,8 +10,6 @@
 		F87EBE9F215170D200145CED /* FRTextFieldAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F87EBE9D215170D200145CED /* FRTextFieldAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F87EBEA62151713600145CED /* FRTextFieldAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EBEA52151713600145CED /* FRTextFieldAnimation.swift */; };
 		F87EBEA82151715500145CED /* FRTextFieldInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EBEA72151715500145CED /* FRTextFieldInput.swift */; };
-		F87EBEAA2151717300145CED /* FRTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EBEA92151717300145CED /* FRTextFieldStyle.swift */; };
-		F87EBEAD2151719100145CED /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EBEAC2151719100145CED /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +18,6 @@
 		F87EBE9E215170D200145CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F87EBEA52151713600145CED /* FRTextFieldAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRTextFieldAnimation.swift; sourceTree = "<group>"; };
 		F87EBEA72151715500145CED /* FRTextFieldInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRTextFieldInput.swift; sourceTree = "<group>"; };
-		F87EBEA92151717300145CED /* FRTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRTextFieldStyle.swift; sourceTree = "<group>"; };
-		F87EBEAC2151719100145CED /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,22 +50,12 @@
 		F87EBE9C215170D200145CED /* FRTextFieldAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				F87EBEAB2151718000145CED /* Extension */,
 				F87EBE9D215170D200145CED /* FRTextFieldAnimation.h */,
 				F87EBEA52151713600145CED /* FRTextFieldAnimation.swift */,
 				F87EBEA72151715500145CED /* FRTextFieldInput.swift */,
-				F87EBEA92151717300145CED /* FRTextFieldStyle.swift */,
 				F87EBE9E215170D200145CED /* Info.plist */,
 			);
 			path = FRTextFieldAnimation;
-			sourceTree = "<group>";
-		};
-		F87EBEAB2151718000145CED /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				F87EBEAC2151719100145CED /* UIColor+Extension.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87EBEAA2151717300145CED /* FRTextFieldStyle.swift in Sources */,
 				F87EBEA82151715500145CED /* FRTextFieldInput.swift in Sources */,
 				F87EBEA62151713600145CED /* FRTextFieldAnimation.swift in Sources */,
-				F87EBEAD2151719100145CED /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

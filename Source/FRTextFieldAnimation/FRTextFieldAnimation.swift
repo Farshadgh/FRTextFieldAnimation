@@ -12,7 +12,6 @@ import UIKit
     @objc optional func animatedTextInputDidBeginEditing(animatedTextInput: FRTextFieldInput)
     @objc optional func animatedTextInputDidEndEditing(animatedTextInput: FRTextFieldInput)
     @objc optional func animatedTextInputDidChange(animatedTextInput: FRTextFieldInput)
-    @objc optional func animatedTextInput(animatedTextInput: FRTextFieldInput, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool
     @objc optional func animatedTextInputShouldBeginEditing(animatedTextInput: FRTextFieldInput) -> Bool
     @objc optional func animatedTextInputShouldEndEditing(animatedTextInput: FRTextFieldInput) -> Bool
     @objc optional func animatedTextInputShouldReturn(animatedTextInput: FRTextFieldInput) -> Bool
@@ -27,7 +26,6 @@ open class FRTextFieldAnimation: UIControl {
     fileprivate var lineView = UIView()
     fileprivate var placeHolderView = UILabel()
     fileprivate var textField = FRTextFieldInput()
-    //    fileprivate var animationView: LOTAnimationView!
     
     open  weak var delegate: AnimatedTextInputDelegate?
     
@@ -37,17 +35,22 @@ open class FRTextFieldAnimation: UIControl {
         }
     }
     
-    open var text: String! {
+    open var text: String  {
+        
+        set {
+            self.textField.text = text
+        }
         
         get {
             return textField.text!
         }
         
+        
     }
     
-    open var placeholderTitle: String = "sample" {
+    open var placeHolderTitle: String = "" {
         didSet {
-            placeHolderView.text = placeholderTitle
+            placeHolderView.text = placeHolderTitle
         }
     }
     
@@ -58,19 +61,35 @@ open class FRTextFieldAnimation: UIControl {
         }
     }
     
+    open var textColor: UIColor = UIColor.black {
+        didSet {
+            textField.textColor = textColor
+        }
+    }
+    
+    open var placeHolderColor: UIColor = UIColor.black {
+        didSet {
+            placeHolderView.textColor = placeHolderColor
+        }
+    }
+    
     open var textFieldFont: UIFont = UIFont.systemFont(ofSize: 15) {
         didSet {
             textField.font = textFieldFont
         }
     }
     
-    open var placeholderFont: UIFont = UIFont.systemFont(ofSize: 15) {
+    open var placeHolderFont: UIFont = UIFont.systemFont(ofSize: 15) {
         didSet {
-            placeHolderView.font = placeholderFont
+            placeHolderView.font = placeHolderFont
         }
     }
     
-    
+    open var lineColor: UIColor = UIColor.black {
+        didSet {
+            lineView.backgroundColor = lineColor
+        }
+    }
     
     override public init(frame: CGRect) {
         super.init(frame: frame)
@@ -90,7 +109,6 @@ open class FRTextFieldAnimation: UIControl {
         addLine()
         addTextInput()
         addPlaceHolder()
-        //        addLottieAnimation()
         addKyeboardObserver()
         
         
@@ -101,7 +119,7 @@ open class FRTextFieldAnimation: UIControl {
         
         lineView.frame.size = CGSize(width: screenWith - (linePadding * 2), height: 2)
         lineView.frame.origin = CGPoint(x: (screenWith - lineView.frame.size.width) / 2, y: frame.height - 2)
-        lineView.backgroundColor = UIColor.fromRGB(0xBBC4FF)
+        lineView.backgroundColor = self.lineColor
         addSubview(lineView)
         
     }
@@ -112,7 +130,7 @@ open class FRTextFieldAnimation: UIControl {
         textField.frame.origin = CGPoint(x: (screenWith - lineView.frame.size.width) / 2, y: frame.height - 40)
         textField.font = self.textFieldFont
         textField.textAlignment = .left
-        textField.textColor = .white
+        textField.textColor = self.textColor
         textField.keyboardType = keyboardType
         textField.autocorrectionType = .no
         textField.spellCheckingType = .no
@@ -127,48 +145,12 @@ open class FRTextFieldAnimation: UIControl {
         
         placeHolderView.frame.size = CGSize(width: screenWith - (linePadding * 2), height: 40)
         placeHolderView.frame.origin = CGPoint(x: (screenWith - lineView.frame.size.width) / 2, y: frame.height - 40)
-        placeHolderView.text = placeholderTitle
-        placeHolderView.textColor = UIColor.fromRGB(0xBBC4FF)
-        placeHolderView.font = self.placeholderFont
+        placeHolderView.text = placeHolderTitle
+        placeHolderView.textColor = self.placeHolderColor
+        placeHolderView.font = self.placeHolderFont
         addSubview(placeHolderView)
     }
     
-    open override func updateConstraints() {
-        
-        //        addLineViewConstraints()
-        //        addPlaceholderConstraints()
-        super.updateConstraints()
-        
-    }
-    
-    fileprivate func addLineViewConstraints() {
-        
-        removeConstraints(constraints)
-        pinLeading(toLeadingOf: lineView, constant: 5)
-        pinTrailing(toTrailingOf: lineView, constant: 5)
-        lineView.setHeight(to: 2)
-        let constant: CGFloat = 0
-        lineToBottomConstraint = pinBottom(toBottomOf: lineView, constant: constant)
-    }
-    
-    fileprivate func addPlaceholderConstraints() {
-        
-        pinLeading(toLeadingOf: placeHolderView, constant: 0)
-        
-        placeholderToBottomConstraint = pinTrailing(toTrailingOf: textField, constant: 0)
-        
-        pinTop(toTopOf: textField, constant: 10)
-        textField.pinBottom(toTopOf: lineView, constant: 0)
-        
-    }
-    
-    fileprivate func addLottieAnimation() {
-        
-        //        animationView = LOTAnimationView(name: "tick")
-        //        animationView.frame.origin.x = screenWith - 65
-        //        animationView.frame.origin.y = lineView.frame.origin.y - 33
-        //        addSubview(animationView)
-    }
     
     fileprivate func addKyeboardObserver() {
         NotificationCenter.default.addObserver(self,
@@ -183,11 +165,6 @@ open class FRTextFieldAnimation: UIControl {
     }
     
     
-    open func startTickAnimation() {
-        //        animationView.play{ (finished) in
-        //        }
-    }
-    
     @objc fileprivate func placeholderShowKeyboardAnimate() {
         
         UIView.animate(withDuration: 0.5,
@@ -196,7 +173,6 @@ open class FRTextFieldAnimation: UIControl {
                        initialSpringVelocity: 0.6,
                        options: .curveEaseInOut, animations: {
                         
-                        //                       self.placeholderToBottomConstraint.constant = 100
                         self.placeHolderView.frame.origin.y = 10
                         
         }, completion: nil)
@@ -219,7 +195,7 @@ open class FRTextFieldAnimation: UIControl {
     }
 }
 
-extension FRTextFieldAnimation: TextInputDelegate {
+extension FRTextFieldAnimation: FRTextInputDelegate {
     
     open func textInputDidBeginEditing(textInput: FRTextFieldInput) {
         delegate?.animatedTextInputDidBeginEditing?(animatedTextInput: textInput)
@@ -231,10 +207,6 @@ extension FRTextFieldAnimation: TextInputDelegate {
     
     open func textInputDidChange(textInput: FRTextFieldInput) {
         delegate?.animatedTextInputDidChange?(animatedTextInput: textInput)
-    }
-    
-    open func textInput(textInput: FRTextFieldInput, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        return delegate?.animatedTextInput?(animatedTextInput: textInput, shouldChangeCharactersInRange: range, replacementString: string) ?? true
     }
     
     
@@ -252,14 +224,4 @@ extension FRTextFieldAnimation: TextInputDelegate {
     
 }
 
-@objc public protocol TextInputDelegate: class {
-    
-    @objc optional func textInputDidBeginEditing(textInput: FRTextFieldInput)
-    @objc optional func textInputDidEndEditing(textInput: FRTextFieldInput)
-    @objc optional func textInputDidChange(textInput: FRTextFieldInput)
-    @objc optional func textInput(textInput: FRTextFieldInput, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool
-    @objc optional func textInputShouldBeginEditing(textInput: FRTextFieldInput) -> Bool
-    @objc optional func textInputShouldEndEditing(textInput: FRTextFieldInput) -> Bool
-    @objc optional func textInputShouldReturn(textInput: FRTextFieldInput) -> Bool
-}
 

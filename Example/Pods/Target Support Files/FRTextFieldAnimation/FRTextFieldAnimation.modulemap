@@ -1,0 +1,6 @@
+framework module FRTextFieldAnimation {
+  umbrella header "FRTextFieldAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

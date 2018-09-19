@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113B30974E7E48230941B31F3BC5574B /* FRTextFieldAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A66C3E047B1DE6E89BD79644C9CEBE /* FRTextFieldAnimation.swift */; };
+		150CA2373E807321E801173E9C147D3B /* Pods-FRTextFieldExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE564EC1D366A6E226C2053BA86557F /* Pods-FRTextFieldExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A3DFCEE9B2405302D6F23FF8B5D4548 /* FRTextFieldAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9271BFE00FCE10D3CE5B378D2B96495 /* FRTextFieldAnimation-dummy.m */; };
+		2DD50C8B294CF30CD2888D4532CE2152 /* FRTextFieldInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE26ABE207C3809A9DB2B534B299200 /* FRTextFieldInput.swift */; };
+		4B65FB9668170B6710756E08F422C820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		787517577C8CA9F9814413B51D0DF164 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		88D12649E5577295368AA21F34EE94AE /* FRTextFieldAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DBEE5B94C2719258B81A3B732711F6 /* FRTextFieldAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF8D3D7A1AC8F981D4B92914430C641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		A1DB5480379B474A5AB20D77CA4BFC06 /* Pods-FRTextFieldExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A240D63D227774487293EEB49FBC030 /* Pods-FRTextFieldExample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EFFD8900E77B913FFA0AE27854FFED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B2C731F6B84F54FC6D75F9457A82F8;
+			remoteInfo = FRTextFieldAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BB17FC9CD1AA2BC915080BF11F74F9 /* FRTextFieldAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FRTextFieldAnimation.modulemap; sourceTree = "<group>"; };
+		13B9E84A483388D4885A6873839F10BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1AE564EC1D366A6E226C2053BA86557F /* Pods-FRTextFieldExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FRTextFieldExample-umbrella.h"; sourceTree = "<group>"; };
+		21A938A040C02F5ADBA231DB3C0FDDA8 /* Pods-FRTextFieldExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FRTextFieldExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BE26ABE207C3809A9DB2B534B299200 /* FRTextFieldInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FRTextFieldInput.swift; path = Source/FRTextFieldAnimation/FRTextFieldInput.swift; sourceTree = "<group>"; };
+		49A66C3E047B1DE6E89BD79644C9CEBE /* FRTextFieldAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FRTextFieldAnimation.swift; path = Source/FRTextFieldAnimation/FRTextFieldAnimation.swift; sourceTree = "<group>"; };
+		63DBEE5B94C2719258B81A3B732711F6 /* FRTextFieldAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRTextFieldAnimation-umbrella.h"; sourceTree = "<group>"; };
+		6B4AABA34F9412A86CB65D9A363A238F /* Pods-FRTextFieldExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FRTextFieldExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B6B1654838523513FE4F0AE2743D599 /* FRTextFieldAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FRTextFieldAnimation-Info.plist"; sourceTree = "<group>"; };
+		81265B79005F5F767DBCF70D7E105C78 /* Pods-FRTextFieldExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRTextFieldExample-frameworks.sh"; sourceTree = "<group>"; };
+		87CDFBEF6137AC58B21A8869F9A400AC /* Pods-FRTextFieldExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FRTextFieldExample-Info.plist"; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A240D63D227774487293EEB49FBC030 /* Pods-FRTextFieldExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FRTextFieldExample-dummy.m"; sourceTree = "<group>"; };
+		B9C45F958C36236E388920EE47CDBB83 /* Pods_FRTextFieldExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FRTextFieldExample.framework; path = "Pods-FRTextFieldExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2FE34B4FAD740C7E2BDC937BF2C94A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BDC1ECE205EA64C6CCF31B63A6DF10F0 /* FRTextFieldAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRTextFieldAnimation-prefix.pch"; sourceTree = "<group>"; };
+		C170BAA6DB28D0F50BA6F78863DB1506 /* Pods-FRTextFieldExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FRTextFieldExample.modulemap"; sourceTree = "<group>"; };
+		C9D250EB64A7FF7898992C20F00BDC55 /* FRTextFieldAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FRTextFieldAnimation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6C16EC4E94D6D3547A8705185B044FB /* Pods-FRTextFieldExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRTextFieldExample.release.xcconfig"; sourceTree = "<group>"; };
+		E17E16256A9C7AAB46586773007F2A03 /* FRTextFieldAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FRTextFieldAnimation.xcconfig; sourceTree = "<group>"; };
+		EE79E7EEAB2A071FC6A26770A58CD6DA /* FRTextFieldAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FRTextFieldAnimation.framework; path = FRTextFieldAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28EC4C1565306EAE0B1E1AB838DDAD4 /* Pods-FRTextFieldExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRTextFieldExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F9271BFE00FCE10D3CE5B378D2B96495 /* FRTextFieldAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FRTextFieldAnimation-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220D10C2D05EE3581DA8F809571BF307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B65FB9668170B6710756E08F422C820 /* Foundation.framework in Frameworks */,
+				787517577C8CA9F9814413B51D0DF164 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A079341C7D0D162316DDE7B9D3C740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF8D3D7A1AC8F981D4B92914430C641 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020C546A58B8DBB514DE6F0A833FB56B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BB17FC9CD1AA2BC915080BF11F74F9 /* FRTextFieldAnimation.modulemap */,
+				E17E16256A9C7AAB46586773007F2A03 /* FRTextFieldAnimation.xcconfig */,
+				F9271BFE00FCE10D3CE5B378D2B96495 /* FRTextFieldAnimation-dummy.m */,
+				7B6B1654838523513FE4F0AE2743D599 /* FRTextFieldAnimation-Info.plist */,
+				BDC1ECE205EA64C6CCF31B63A6DF10F0 /* FRTextFieldAnimation-prefix.pch */,
+				63DBEE5B94C2719258B81A3B732711F6 /* FRTextFieldAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FRTextFieldAnimation";
+			sourceTree = "<group>";
+		};
+		09884B1CECF703B8FD737D8FAA90D54B /* Pods-FRTextFieldExample */ = {
+			isa = PBXGroup;
+			children = (
+				C170BAA6DB28D0F50BA6F78863DB1506 /* Pods-FRTextFieldExample.modulemap */,
+				6B4AABA34F9412A86CB65D9A363A238F /* Pods-FRTextFieldExample-acknowledgements.markdown */,
+				21A938A040C02F5ADBA231DB3C0FDDA8 /* Pods-FRTextFieldExample-acknowledgements.plist */,
+				9A240D63D227774487293EEB49FBC030 /* Pods-FRTextFieldExample-dummy.m */,
+				81265B79005F5F767DBCF70D7E105C78 /* Pods-FRTextFieldExample-frameworks.sh */,
+				87CDFBEF6137AC58B21A8869F9A400AC /* Pods-FRTextFieldExample-Info.plist */,
+				1AE564EC1D366A6E226C2053BA86557F /* Pods-FRTextFieldExample-umbrella.h */,
+				F28EC4C1565306EAE0B1E1AB838DDAD4 /* Pods-FRTextFieldExample.debug.xcconfig */,
+				D6C16EC4E94D6D3547A8705185B044FB /* Pods-FRTextFieldExample.release.xcconfig */,
+			);
+			name = "Pods-FRTextFieldExample";
+			path = "Target Support Files/Pods-FRTextFieldExample";
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F6B9216653C72B45586E4777E8C5CE3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09884B1CECF703B8FD737D8FAA90D54B /* Pods-FRTextFieldExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79EF7D6201F1068E0A0308B65D69D0FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE79E7EEAB2A071FC6A26770A58CD6DA /* FRTextFieldAnimation.framework */,
+				B9C45F958C36236E388920EE47CDBB83 /* Pods_FRTextFieldExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FC6C9E592F8DAD5FC72939DEEA5EA004 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				79EF7D6201F1068E0A0308B65D69D0FA /* Products */,
+				4F6B9216653C72B45586E4777E8C5CE3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0D9C3687E4B536638625C33C43CE6E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C9D250EB64A7FF7898992C20F00BDC55 /* FRTextFieldAnimation.podspec */,
+				BB2FE34B4FAD740C7E2BDC937BF2C94A /* LICENSE */,
+				13B9E84A483388D4885A6873839F10BD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FAB640229BA7A1F494E85936A6BB1AA8 /* FRTextFieldAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				49A66C3E047B1DE6E89BD79644C9CEBE /* FRTextFieldAnimation.swift */,
+				3BE26ABE207C3809A9DB2B534B299200 /* FRTextFieldInput.swift */,
+				BA0D9C3687E4B536638625C33C43CE6E /* Pod */,
+				020C546A58B8DBB514DE6F0A833FB56B /* Support Files */,
+			);
+			name = FRTextFieldAnimation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC6C9E592F8DAD5FC72939DEEA5EA004 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAB640229BA7A1F494E85936A6BB1AA8 /* FRTextFieldAnimation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		505E47D1482EC5CB9BC121A2D2BFC469 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D12649E5577295368AA21F34EE94AE /* FRTextFieldAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8318BDC41906F3159254F1EEDB575AEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150CA2373E807321E801173E9C147D3B /* Pods-FRTextFieldExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07232EC5A544AB2352F7FECFD5EFE18D /* Pods-FRTextFieldExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6283446698EC1CFB2462A765F10D4538 /* Build configuration list for PBXNativeTarget "Pods-FRTextFieldExample" */;
+			buildPhases = (
+				8318BDC41906F3159254F1EEDB575AEF /* Headers */,
+				7E240A180C5E769307793058FE559529 /* Sources */,
+				60A079341C7D0D162316DDE7B9D3C740 /* Frameworks */,
+				5D5785D774BB82C8B77DB9801E5BCE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66D3F07A125D58DA0EA3D11B245F9A99 /* PBXTargetDependency */,
+			);
+			name = "Pods-FRTextFieldExample";
+			productName = "Pods-FRTextFieldExample";
+			productReference = B9C45F958C36236E388920EE47CDBB83 /* Pods_FRTextFieldExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9B2C731F6B84F54FC6D75F9457A82F8 /* FRTextFieldAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11BD828602DE1E65F0E76DC629D09531 /* Build configuration list for PBXNativeTarget "FRTextFieldAnimation" */;
+			buildPhases = (
+				505E47D1482EC5CB9BC121A2D2BFC469 /* Headers */,
+				2EA0A676AB08AF82E4DF98D4356CC3E4 /* Sources */,
+				220D10C2D05EE3581DA8F809571BF307 /* Frameworks */,
+				CF036369BA012EAD8DBC43A6E00CA7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRTextFieldAnimation;
+			productName = FRTextFieldAnimation;
+			productReference = EE79E7EEAB2A071FC6A26770A58CD6DA /* FRTextFieldAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 79EF7D6201F1068E0A0308B65D69D0FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B2C731F6B84F54FC6D75F9457A82F8 /* FRTextFieldAnimation */,
+				07232EC5A544AB2352F7FECFD5EFE18D /* Pods-FRTextFieldExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5785D774BB82C8B77DB9801E5BCE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF036369BA012EAD8DBC43A6E00CA7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EA0A676AB08AF82E4DF98D4356CC3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3DFCEE9B2405302D6F23FF8B5D4548 /* FRTextFieldAnimation-dummy.m in Sources */,
+				113B30974E7E48230941B31F3BC5574B /* FRTextFieldAnimation.swift in Sources */,
+				2DD50C8B294CF30CD2888D4532CE2152 /* FRTextFieldInput.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E240A180C5E769307793058FE559529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DB5480379B474A5AB20D77CA4BFC06 /* Pods-FRTextFieldExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66D3F07A125D58DA0EA3D11B245F9A99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FRTextFieldAnimation;
+			target = C9B2C731F6B84F54FC6D75F9457A82F8 /* FRTextFieldAnimation */;
+			targetProxy = 3EFFD8900E77B913FFA0AE27854FFED4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CF21D5141420B281FDF91788588C2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28EC4C1565306EAE0B1E1AB838DDAD4 /* Pods-FRTextFieldExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FRTextFieldExample/Pods-FRTextFieldExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FRTextFieldExample/Pods-FRTextFieldExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63BBD94CFCC0B061C1D96613DCA6F27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17E16256A9C7AAB46586773007F2A03 /* FRTextFieldAnimation.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FRTextFieldAnimation/FRTextFieldAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FRTextFieldAnimation/FRTextFieldAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FRTextFieldAnimation/FRTextFieldAnimation.modulemap";
+				PRODUCT_MODULE_NAME = FRTextFieldAnimation;
+				PRODUCT_NAME = FRTextFieldAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FC7B8135FDED1560A80CA98EC6F7207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AFF27FBF086AEE7FE548E082ED281BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C16EC4E94D6D3547A8705185B044FB /* Pods-FRTextFieldExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FRTextFieldExample/Pods-FRTextFieldExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FRTextFieldExample/Pods-FRTextFieldExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4A339C5C9837FC180FD2D276CBB365A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E79CA5EE4D34FD7A50861496962FAC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17E16256A9C7AAB46586773007F2A03 /* FRTextFieldAnimation.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FRTextFieldAnimation/FRTextFieldAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FRTextFieldAnimation/FRTextFieldAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FRTextFieldAnimation/FRTextFieldAnimation.modulemap";
+				PRODUCT_MODULE_NAME = FRTextFieldAnimation;
+				PRODUCT_NAME = FRTextFieldAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11BD828602DE1E65F0E76DC629D09531 /* Build configuration list for PBXNativeTarget "FRTextFieldAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BBD94CFCC0B061C1D96613DCA6F27B /* Debug */,
+				E79CA5EE4D34FD7A50861496962FAC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A339C5C9837FC180FD2D276CBB365A /* Debug */,
+				7FC7B8135FDED1560A80CA98EC6F7207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6283446698EC1CFB2462A765F10D4538 /* Build configuration list for PBXNativeTarget "Pods-FRTextFieldExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF21D5141420B281FDF91788588C2B2 /* Debug */,
+				AFF27FBF086AEE7FE548E082ED281BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
