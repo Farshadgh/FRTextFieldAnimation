@@ -65,6 +65,4 @@ extension ViewController: AnimatedTextInputDelegate {
     func animatedTextInputShouldEndEditing(animatedTextInput: FRTextFieldInput) -> Bool {
         return true
     }
-    
-    
 }
