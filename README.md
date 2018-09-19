@@ -3,8 +3,7 @@
 <center>
 
 [![Swift Version][swift-image]][swift-url]
-[![CocoaPods version](https://img.shields.io/cocoapods/v/iOSViews.svg?style=flat)]
-[cocoapods]
+[![CocoaPods version][cocoapods-version-image]][cocoapods]
 [![License][license-image]][license-url]
 
 </center>
@@ -116,10 +115,10 @@ Farshad Ghafari, farshad.de.lucia@gmail.com
 FRTextFieldAnimation is available under the MIT license. See the LICENSE file for more info.
 
 [cocoapods]: https://cocoapods.org/pods/FRTextFieldAnimation
+[cocoapods-version-image]: https://img.shields.io/cocoapods/v/iOSViews.svg?style=flat
 [swift-image]: https://img.shields.io/badge/swift-4.0-orange.svg
 [swift-url]: https://swift.org/
-[license-image]: https://img.shields.io/github/license/amosavian/FileProvider.svg
+[license-image]: https://img.shields.io/github/license/Farshadgh/FRTextFieldAnimation.svg
 [license-url]: LICENSE
-[codebeat-url]: https://codebeat.co/projects/github-com-amosavian-fileprovider
 
 
