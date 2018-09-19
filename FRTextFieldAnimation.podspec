@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FRTextFieldAnimation"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "Texfield with placeholder animation"
 
   spec.description  = <<-DESC
